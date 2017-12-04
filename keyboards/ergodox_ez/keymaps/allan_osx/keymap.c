@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,        KC_LALT,      KC_FN2, KC_LEFT, KC_RGHT,
                                                KC_INS, KC_PPLS,
                                                        KC_HOME,
-                                        KC_BSPC,KC_DELT,KC_END,
+                                        GUI_T(KC_BSPC),KC_DELT,KC_END,
         // right hand
              KC_RBRC,     KC_6,   KC_7,   KC_8,   KC_9,   KC_0,             KC_MINS,
              KC_NUBS,     KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_NUHS,
@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   KC_UP,  KC_DOWN,KC_FN1, KC_RALT,          KC_RCTL,
              KC_PSCR, KC_EQL,
              KC_PGUP,
-             KC_PGDN, KC_ENT, KC_SPC
+             KC_PGDN, KC_ENT, GUI_T(KC_SPC)
     ),
 /* Keymap 1: Symbol Layer
  *
