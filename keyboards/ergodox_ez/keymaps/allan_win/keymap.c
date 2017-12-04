@@ -29,7 +29,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   | Ctrl |  Alt |  ~L2 | Left |Right |                                       |  Up  | Down |  ~L1 | Alt  | Ctrl |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,---------------.
+<<<<<<< HEAD
  *                                        |  Ins |   +  |       | PScr |   =    |
+=======
+ *                                        |  Ins |   +  |       | PScr |   =    |  
+>>>>>>> c9fdeffcf23c3ef25297d8f67e91e821f7f4cf22
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | Home |       | PgUp |        |      |
  *                                 | Bksp |  Del |------|       |------| Enter  |Space |
@@ -44,7 +48,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,         KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   KC_GRV,
         KC_CAPS,        KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
         KC_LSFT,        KC_Z,         KC_X,   KC_C,   KC_V,   KC_B,   ALL_T(KC_NO),
+<<<<<<< HEAD
         KC_LCTL,        KC_LALT,      KC_FN2, KC_LEFT, KC_RGHT,
+=======
+        KC_LCTL,        KC_LALT,      KC_FN2, KC_LEFT, KC_RGHT,        
+>>>>>>> c9fdeffcf23c3ef25297d8f67e91e821f7f4cf22
                                                KC_INS, KC_PPLS,
                                                        KC_HOME,
                                         KC_BSPC,KC_DELT,KC_END,
